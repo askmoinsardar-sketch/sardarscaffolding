@@ -31,7 +31,7 @@ export default function ContactSection() {
 
     try {
       const response = await fetch(
-        'https://formspree.io/f/mkovooro',
+        `https://formspree.io/f/${import.meta.env.VITE_FORMSPREE_ID}`,
         {
           method: 'POST',
           headers: {
@@ -40,8 +40,7 @@ export default function ContactSection() {
           },
           body: JSON.stringify({
             name: formState.name,
-            email: formState.email,
-            _replyto: formState.email, // REQUIRED
+            _replyto: formState.email,
             phone: formState.phone,
             company: formState.company,
             product: formState.product,
@@ -51,6 +50,7 @@ export default function ContactSection() {
           }),
         }
       );
+      
 
       const data = await response.json();
 
