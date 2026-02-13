@@ -5,8 +5,8 @@ const slides = [
   {
     id: 1,
     image:
-      'https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=1600&q=80',
-    alt: 'Construction site with steel framework at sunset',
+    'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80',
+    alt: 'Heavy machinery working on a construction project',
   },
   {
     id: 2,
@@ -14,12 +14,12 @@ const slides = [
       'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80',
     alt: 'Modern building under construction with scaffolding',
   },
-  {
-    id: 3,
-    image:
-      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80',
-    alt: 'Heavy machinery working on a construction project',
-  },
+  // {
+  //   id: 3,
+  //   image:
+  //   '/products/construction.jpg',
+  //   alt: 'Construction site with steel framework at sunset',
+  // },
 ];
 
 export default function HeroSection() {

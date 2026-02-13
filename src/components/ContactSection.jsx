@@ -97,7 +97,8 @@ export default function ContactSection() {
             </p>
 
             <a
-              href="https://wa.me/966537006760"
+              href="https://wa.me/966537006760?text=Hello%20I%20am%20interested%20in%20your%20scaffolding%20products.
+"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-[#25D366] text-white font-semibold hover:bg-[#20BD5A] transition-colors duration-200"
